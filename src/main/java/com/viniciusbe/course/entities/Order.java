@@ -20,17 +20,16 @@ public class Order implements Serializable {
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss'Z'", timezone = "GMT")
     private Instant moment;
-
     private Integer orderStatus;
+
+    @OneToMany(mappedBy = "id.order")
+    private final Set<OrderItem> items = new HashSet<>();
 
     @ManyToOne
     @JoinColumn(name = "client_id")
     private User client;
 
-    @OneToMany(mappedBy = "id.order")
-    private Set<OrderItem> items = new HashSet<>();
-
-    @OneToOne(mappedBy = "order",cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)
     private Payment payment;
 
 
@@ -90,6 +89,15 @@ public class Order implements Serializable {
 
     public void setPayment(Payment payment) {
         this.payment = payment;
+    }
+
+    public Double getTotal() {
+        double sum = 0;
+        for (OrderItem item : items) {
+            sum += item.getSubTotal();
+        }
+
+        return sum;
     }
 
     @Override
