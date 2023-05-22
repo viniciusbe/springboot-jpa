@@ -3,7 +3,7 @@
 Web service criado para simular um e-commerce, tendo um CRUD para clientes, pedidos, pagamentos, produtos e categorias. O projeto possui camadas lógicas (resource, service, repository) e o banco de dados de teste H2. 
 
 ## Modelo conceitual
-![Modelo Conceitual]()
+![Modelo Conceitual](https://github.com/viniciusbe/springboot-jpa/blob/master/.github/domain_model.png)
 
 # Tecnologias utilizadas
 - Java
