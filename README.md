@@ -14,7 +14,6 @@ Web service criado para simular um e-commerce, tendo um CRUD para clientes, pedi
 
 # Como executar o projeto
 
-## Back end
 Pré-requisitos: Java 17
 
 ```bash
