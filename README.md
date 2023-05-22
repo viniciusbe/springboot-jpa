@@ -39,5 +39,5 @@ cd springboot-jpa
 Made with ❤ by [Vinícius Bernardes](https://github.com/viniciusbe)
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-bernardes-santos/)
-[![Gmail Badge](https://img.shields.io/badge/-vinicius@vibesa.online-d14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:vinicius@vibesa.online)
+[![Gmail Badge](https://img.shields.io/badge/-contato@viniciusbernardes.dev-d14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:contato@viniciusbernardes.dev)
 [![Twitter Badge](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2FViniciusbern7)](https://twitter.com/Viniciusbern7)
